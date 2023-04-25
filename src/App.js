@@ -9,6 +9,7 @@ import ResetPassPage from "./components/resetPassPage/ResetPassPage";
 import HomePage from "./pages/HomePage";
 import MainPage from "./pages/MainPage";
 import PlayerPage from "./pages/PlayerPage";
+import ModelPage2 from "./pages/ModelPage";
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
         <Route path="/forgetPass" element={<ResetPassPage />}></Route>
         {/* <Route path="/model"  element={<ModelPage />} ></Route> */}
         <Route path="/model" element={<MainPage />}></Route>
-        <Route path="/modelview" element={<PlayerPage />}></Route>
+        {/* <Route path="/modelview" element={<PlayerPage />}></Route> */}
+        <Route path="/modelview" element={<ModelPage2 />}></Route>
       </Routes>
     </Router>
   );
