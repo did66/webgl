@@ -1,0 +1,21 @@
+.NButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #00BFFF;
+    border-radius: 0.5rem;
+}
+
+.NButton--suffixIcon {
+    margin-right: 8px;
+}
+
+.NButton--prefixIcon {
+    margin-left: 8px;
+}
+
+.NButton:hover {
+    cursor: pointer;
+    background-color: #1E90FF;
+}

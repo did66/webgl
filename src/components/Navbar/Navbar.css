@@ -1,0 +1,134 @@
+.group {
+  justify-content: space-between;
+  align-self: center;
+  width: 1440px;
+  padding: 12px 12px 11px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15000000596046448);
+}
+
+.logo {
+  align-self: center;
+  width: 142px;
+  height: 41px;
+  margin: 0 0 2px 19px;
+}
+
+.icon-user {
+  align-self: center;
+  width: 43px;
+  height: 43px;
+  margin-right: 35px;
+}
+
+
+.flex-row {
+  display: flex;
+}
+
+.group {
+  position: relative;
+}
+
+.icon-user {
+  cursor: pointer;
+}
+
+
+.icon-user-container {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%; /* 设置在 icon-user 的正下方 */
+  right: 20px; /* 与 icon-user 右对齐 */
+  width: 220px; /* 宽度可以根据需求调整 */
+  height: 280px; /* 高度可以根据需求调整 */
+  background: linear-gradient(180deg, #057AD2 0%, #F9F9F9 30%);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  z-index: 999; /* 确保下拉状态栏显示在其他元素之上 */
+  padding: 10px;
+  /*调整下拉栏到 icon-user 的距离*/
+}
+
+.account {
+  width: 138px;
+  height: 15px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #003964;
+}
+
+.nickname {
+  width: 29px;
+  height: 23px;
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #003964;
+}
+
+
+.dropdown-item {
+  display: block;
+  font-size: 14px;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #057AD2;
+  padding-left: 15px;
+  
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+  color: #376080;
+  font-size: 16px;
+  
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* 使图片呈圆形 */
+  object-fit: cover; /* 确保图片完整覆盖容器，可能会有部分图片被裁剪 */
+  margin-right: 5px; /* 设置头像与昵称之间的间距 */
+  box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.user-info {
+  display: flex;
+  flex-direction: line;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:4px;
+}
+
+.nickname {
+  margin-bottom: 5px;
+}
+
+.nickaccount{
+  display: flex;
+  flex-direction: column;
+}

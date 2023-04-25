@@ -1,0 +1,86 @@
+/* need */
+#pdtViewer {
+  width: 67%;
+  margin: 0 auto;
+
+  line-height: 100%;
+}
+
+#pdtViewer img {
+  padding: 40px 20px;
+  ser-select: none;
+  -moz-user-select: none
+}
+
+#dummy {
+  display: none
+}
+
+
+
+@keyframes bouncedelay {
+
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1)
+  }
+}
+
+@-webkit-keyframes bouncedelay {
+
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+
+  40% {
+    transform: scale(1);
+    -webkit-transform: scale(1)
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  #pdtViewer img {
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hidePhone {
+    display: none
+  }
+
+  .btnDiv {
+    zoom: .7
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  #pdtViewer img {
+    padding: 40px 0
+  }
+
+  #pdtViewer {
+    width: 95%
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fork {
+    width: 100px;
+    position: absolute !important
+  }
+
+  h1 {
+    margin-top: 60px
+  }
+}

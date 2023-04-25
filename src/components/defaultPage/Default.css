@@ -1,0 +1,43 @@
+.defaultMain {
+    display: flex;
+    width: 100%;
+    height: 100vh
+}
+
+.defaultMain--info {
+    color: white;
+    margin-left: 10%;
+    margin-top: 35vh;
+}
+
+.defaultMain--info_neudim_container {
+    font-size: 5.5rem;
+    font-weight: 600;
+    margin-bottom: 0.2vh;
+}
+
+.defaultMain--info_description_container {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 2.6vh;
+}
+
+.defaultMain--info_register_container {
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-bottom: 1.6vh;
+}
+
+.defaultMain--info_login_container {
+    font-size: 1.5rem;
+}
+
+.defaultMain--info_login_click_span {
+    margin-left: 1vh;
+    font-weight: 500;
+    color: #00BFFF;
+}
+
+.defaultMain--info_login_click_span:hover {
+    cursor: pointer;
+}

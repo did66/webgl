@@ -1,0 +1,13 @@
+.video-container {
+  margin: auto;
+  width: 30%;
+  border-radius: 5%;
+  overflow: hidden;
+  /* transform: translateY(50%); */
+  /* height: 70vh; */
+}
+
+.video-container video {
+  width: 100%;
+  border-radius: 5%;
+}

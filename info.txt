@@ -1,0 +1,9 @@
+依赖: node, npm
+本地运行: npm start
+部署: 运行dev-dep.sh脚本（mac系统）
+部署更新原理: 
+    npm build 进行构建
+    zip压缩后通过scp命令上传服务器
+    登陆服务器后解压构建产物即可
+服务器运行命令:（需要安装 node, npm, serve）(如更换服务器可自行百度以上以来安装方式)
+    serve -s neudim-build

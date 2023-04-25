@@ -1,0 +1,77 @@
+.download-item-wrap {
+  overflow: hidden;
+  margin-top: 24px;
+  padding-left: 24px;
+}
+.download-item {
+  width: 140px;
+  float: left;
+}
+.download-title {
+  font-weight: bold;
+}
+.video-wrap {
+  width: 600px;
+  white-space: nowrap;
+  height: 240px;
+  overflow-x: auto;
+}
+.video-item {
+  width: 180px;
+  height: 200px;
+  margin-top: 16px;
+  position: relative;
+  display: inline-block;
+}
+.download-video {
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 180px;
+  max-height: 200px;
+  cursor: zoom-in;
+}
+.download-btn-01 {
+  cursor: pointer;
+  position: absolute;
+  z-index: 9;
+  left: 10px;
+  bottom: 10px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.64);
+}
+.preview-video-wrap {
+  text-align: center;
+}
+.preview-video {
+  max-width: 500px;
+  max-height: 600px;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.preview-dialog-title {
+  padding: 5px 0;
+}
+.preview-btn {
+  margin: 20px auto;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 25px;
+  background: #edf2f7;
+  cursor: pointer;
+}
+.preview-btn:hover {
+  background: #e2e8f0;
+}
+.preview-btn i {
+  font-weight: bold;
+  color: #000;
+  padding-left: 5px;
+  font-style: normal;
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.820a3c53.css",
+    "main.js": "/static/js/main.b1d8ff5a.js",
+    "static/js/787.638ded37.chunk.js": "/static/js/787.638ded37.chunk.js",
+    "static/media/namibia-4820682.jpg": "/static/media/namibia-4820682.2ba903b4fb7efac32a74.jpg",
+    "static/media/neudim_logo.png": "/static/media/neudim_logo.7c09d9fa6bec3aa2ef74.png",
+    "static/media/blueBg.jpg": "/static/media/blueBg.93d16f85894916e73230.jpg",
+    "index.html": "/index.html",
+    "main.820a3c53.css.map": "/static/css/main.820a3c53.css.map",
+    "main.b1d8ff5a.js.map": "/static/js/main.b1d8ff5a.js.map",
+    "787.638ded37.chunk.js.map": "/static/js/787.638ded37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.820a3c53.css",
+    "static/js/main.b1d8ff5a.js"
+  ]
+}

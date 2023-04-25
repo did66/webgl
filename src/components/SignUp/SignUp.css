@@ -1,0 +1,82 @@
+.signUpMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90.9vh;
+}
+
+/* .signUpMain--backArrow {
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    font-weight: 500;
+    font-size: 1.8rem;
+} */
+
+.signUpMain--signUpForm {
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    height: 78%;
+}
+
+.signUpMain--signUpForm_inputPrefix {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.signUpMain--signUpForm_signUpHint_title {
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.signUpMain--signUpForm_signUpHint_detail {
+    font-size: 1.25rem;
+    color: rgb(141, 141, 141);
+}
+
+.signUpMain--signUpForm_signUpHint {
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.signUpMain--signUpForm_email {
+    width: 80%;
+    height: 8.667%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.signUpMain--signUpForm_password {
+    width: 80%;
+    height: 8.667%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.signUpMain--signUpForm_verifyCode {
+    width: 80%;
+    height: 8.667%;
+    margin-bottom: 9%;
+    display: flex;
+}
+
+.signUpMain--signUpForm_submit {
+    width: 80%;
+    margin-bottom: 7%;
+}
+
+.signUpMain--signUpForm_login {
+    width: 78%;
+    font-size: 1.4rem;
+    color: #00BFFF;
+}
+
+.signUpMain--signUpForm_login:hover {
+    cursor: pointer;
+}
